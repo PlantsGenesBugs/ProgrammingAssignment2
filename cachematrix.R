@@ -1,6 +1,6 @@
 ## The functions below calculate the inverse of a matrix and caches the output for future use
 
-## The first function creates a special "vector" that contains a list of four functions. These functions: set the value of the
+## The first function creates a special "matrix" that contains a list of four functions. These functions: set the value of the
 ## input matrix, get the value of the input matrix, set the value of the inverted matrix, and get the value of the inverted matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
